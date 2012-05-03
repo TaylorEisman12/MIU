@@ -36,11 +36,11 @@ h2{
 
 a.ctaLink{
 	position: fixed;
-	top: 250px;
+	top: 175px;
 	right: 20px;
 	background-color: #6e0202;
 	color: white;
-	font-size: large;
+	font-size: xx-large;
 }
 
 #errors{
