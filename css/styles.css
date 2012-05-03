@@ -43,13 +43,20 @@ a.ctaLink{
 	font-size: xx-large;
 }
 
+a.browseLink{
+	color: silver;
+	font-size: x-large;
+	padding-left: 20px;
+	text-decoration: none;
+	border: black;
+}
+
 #errors{
 	color: red;
 	font-size: smaller;
 	font-style: italic;
 	padding-top: 0px;
 }
-
 
 #searchButton{
 	padding-left: 0px;
@@ -96,15 +103,22 @@ legend {
 	color: silver;
 	font-size: larger;
 }
-
+/*
 a.link{color: blue;}
 a.visited{color: red;}
 a.hover{color: gray;}
 a.active{color: black;}
-
+*/
 span {
 	color: red;
 	font-size: smaller;
 	font-style: italic;
 	padding-bottom: 0px;
+}
+
+#browseLinks {
+	color: silver;
+	background-color: navy;
+	font-size: x-large;
+	text-align: left;
 }
