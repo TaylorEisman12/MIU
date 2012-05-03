@@ -1,6 +1,6 @@
 // Taylor Eisman
-// VFW 03/12
-// Project 4
+// MIU 04/12
+// Project 1
 
 function BPupdate(e){
 	document.getElementById('BPValue').innerHTML = e;	
@@ -177,7 +177,7 @@ window.addEventListener("DOMContentLoaded", function(){
 				radios[i].setAttribute("checked", "checked");
 			}
 		}
-		if(item.pastDue[1] == "Yes"){
+		if(item.pastDue[1] == "yes"){
 			$('pastDue').setAttribute("checked", "checked");
 		}
 		$('budgetPercent').value = item.budgetPercent[1];
