@@ -115,3 +115,32 @@ span {
 	font-style: italic;
 	padding-bottom: 0px;
 }
+
+div.displayLink, div.displayCellLink, div.displayCarLink, div.displayRentLink, div.displayCableLink{
+	background-image:url('file:///Volumes/Macintosh%20HD/Users/tayloreisman/Desktop/MIU/images/links.png');
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	width: 304px;
+	height: 550px;
+	margin-bottom: 10px;
+}
+
+div.displayLink{
+	background-position: -50 0;
+}
+
+div.displayCellLink{
+	background-position: -100 0;
+}
+
+div.displayCarLink{
+	background-position: -150 0;
+}
+
+div.displayRentLink{
+	background-position: -200 0;
+}
+
+div.displayCableLink{
+	background-position: -250 0;
+}
