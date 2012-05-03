@@ -10,7 +10,7 @@ header {
 
 body {
 	background-color: gray;
-	font-family: Arial, Times, serif;
+	font-family: "Arial Black", Times, serif;
 }
 
 h1 {
@@ -27,11 +27,38 @@ h2{
 	margin: 0px;
 }
 
+#cta{
+	background-image:url('file:///Volumes/Macintosh%20HD/Users/tayloreisman/Desktop/MIU/images/cta.png');
+	background-repeat: no-repeat;
+	width: 304px;
+	height: 200px;
+}
+
+a.ctaLink{
+	position: fixed;
+	top: 250px;
+	right: 20px;
+	background-color: #6e0202;
+	color: white;
+	font-size: large;
+}
+
 #errors{
 	color: red;
 	font-size: smaller;
 	font-style: italic;
 	padding-top: 0px;
+}
+
+
+#searchButton{
+	padding-left: 0px;
+	color: silver;
+	background-color: navy; 
+}
+
+#search{
+	padding-left: 105px;
 }
 
 p {
@@ -52,7 +79,6 @@ body > p {
 }
 
 [type]. textarea {border: 1px solid navy;}
-
 [type="radios"] {border: none; width: inherit;}
 
 form {
