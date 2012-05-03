@@ -7,14 +7,14 @@ function BPupdate(e){
 }
 window.addEventListener("DOMContentLoaded", function(){
 
-	function $(x){
+	function ge(x){
 		var theElement = document.getElementById(x);
 		return theElement;
 	}
 	
 	function makeCats(){
 		var formTag = document.getElementsByTagName("form"),
-			selectLi = $('select'),
+			selectLi = ge('select'),
 			makeSelect = document.createElement('select');
 			makeSelect.setAttribute("id", "categories");         
 			
@@ -38,8 +38,8 @@ window.addEventListener("DOMContentLoaded", function(){
 	}
 	
 	function getCheckboxValue(){
-		if($('pastDue').checked){
-			pastDueValue = $('pastDue').value;
+		if(ge('pastDue').checked){
+			pastDueValue = ge('pastDue').value;
 		}else{
 			pastDueValue = "No"
 		}
@@ -48,17 +48,17 @@ window.addEventListener("DOMContentLoaded", function(){
 	function toggleControls(n){
 		switch(n){
 			case "on":
-				$('billDetails').style.display = "none";
-				$('clear').style.display = "inline";
-				$('displayLink').style.display = "none";
-				$('addNew').style.display = "inline";
+				ge('billDetails').style.display = "none";
+				ge('clear').style.display = "inline";
+				ge('displayLink').style.display = "none";
+				ge('addNew').style.display = "inline";
 				break;
 			case "off":
-				$('billDetails').style.display = "block";
-				$('clear').style.display = "inline";
-				$('displayLink').style.display = "inline";
-				$('addNew').style.display = "none";
-				$('items').style.display = "none";
+				ge('billDetails').style.display = "block";
+				ge('clear').style.display = "inline";
+				ge('displayLink').style.display = "inline";
+				ge('addNew').style.display = "none";
+				ge('items').style.display = "none";
 				break;
 			default:
 				return false;
@@ -75,15 +75,15 @@ window.addEventListener("DOMContentLoaded", function(){
 		getCheckboxValue();
 		
 		var item					= {};
-			item.category			= ["Category: ", $('categories').value];
-			item.compName			= ["Company Name: ", $('compName').value];
-			item.compEmail			= ["Company Email: ", $('compEmail').value];
-			item.compWeb			= ["Company Website: ", $('compWeb').value];
+			item.category			= ["Category: ", ge('categories').value];
+			item.compName			= ["Company Name: ", ge('compName').value];
+			item.compEmail			= ["Company Email: ", ge('compEmail').value];
+			item.compWeb			= ["Company Website: ", ge('compWeb').value];
 			item.payBy				= ["Pay By: ", payByValue];
 			item.pastDue			= ["Past Due: ", pastDueValue];
-			item.budgetPercent		= ["Percent of Budget: ", $('budgetPercent').value];
-			item.date				= ["Date Added: ", $('date').value];
-			item.notes				= ["Notes: ", $('notes').value];
+			item.budgetPercent		= ["Percent of Budget: ", ge('budgetPercent').value];
+			item.date				= ["Date Added: ", ge('date').value];
+			item.notes				= ["Notes: ", ge('notes').value];
 		
 		localStorage.setItem(id, JSON.stringify(item));
 		alert("Bill Saved!");
@@ -101,7 +101,7 @@ window.addEventListener("DOMContentLoaded", function(){
 		var makeList = document.createElement('ul');
 		makeDiv.appendChild(makeList);
 		document.body.appendChild(makeDiv);
-		$('items').style.display = "display";
+		ge('items').style.display = "display";
 		for(var i=0, len=localStorage.length; i<len;i++){
 			var makeli = document.createElement('li');
 			var linksLi = document.createElement('li');
@@ -165,10 +165,10 @@ window.addEventListener("DOMContentLoaded", function(){
 		
 		toggleControls("off");
 		
-		$('categories').value = item.category[1];
-		$('compName').value = item.compName[1];
-		$('compEmail').value = item.compEmail[1];
-		$('compWeb').value = item.compWeb[1];
+		ge('categories').value = item.category[1];
+		ge('compName').value = item.compName[1];
+		ge('compEmail').value = item.compEmail[1];
+		ge('compWeb').value = item.compWeb[1];
 		var radios = document.forms[0].payBy;
 		for(var i=0; i<radios.length; i++){
 			if(radios[i].value == "Internet" && item.payBy[1] == "Internet"){
@@ -178,15 +178,15 @@ window.addEventListener("DOMContentLoaded", function(){
 			}
 		}
 		if(item.pastDue[1] == "yes"){
-			$('pastDue').setAttribute("checked", "checked");
+			ge('pastDue').setAttribute("checked", "checked");
 		}
-		$('budgetPercent').value = item.budgetPercent[1];
-		$('date').value = item.date[1];
-		$('notes').value = item.notes[1];
+		ge('budgetPercent').value = item.budgetPercent[1];
+		ge('date').value = item.date[1];
+		ge('notes').value = item.notes[1];
 		
 		save.removeEventListener("click", storeData);
-		$('submit').value = "Edit Bill";
-		var editSubmit = $('submit');
+		ge('submit').value = "Edit Bill";
+		var editSubmit = ge('submit');
 		editSubmit.addEventListener("click", validate);
 		editSubmit.key = this.key;
 		
@@ -216,9 +216,9 @@ window.addEventListener("DOMContentLoaded", function(){
 	
 
 	function validate(e){
-		var getCategory = $('categories');
-		var getCompName = $('compName');
-		var getCompEmail = $('compEmail');
+		var getCategory = ge('categories');
+		var getCompName = ge('compName');
+		var getCompEmail = ge('compEmail');
 		
 		errMsg.innerHTML = "";
 		getCategory.style.border = "1px solid black";
@@ -239,7 +239,7 @@ window.addEventListener("DOMContentLoaded", function(){
 			messageAry.push(compNameError);
 		}
 		
-		var re = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+		var re = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+ge/;
 		if(!(re.exec(getCompEmail.value))){
 			var compEmailError = "Please enter a valid email address.";
 			getCompEmail.style.border = "1px solid red";
@@ -262,15 +262,15 @@ window.addEventListener("DOMContentLoaded", function(){
 	var billCategories = ["-- Category --", "Cell", "Car", "Rent", "Cable"],
 		payByValue,
 		pastDueValue = "No",
-		errMsg = $('errors');
+		errMsg = ge('errors');
 	
 	makeCats();
 	
-	var displayLink = $('displayLink');	
+	var displayLink = ge('displayLink');	
 	displayLink.addEventListener("click", getData);
-	var clearLink = $('clear');
+	var clearLink = ge('clear');
 	clearLink.addEventListener("click", clearLocal);
-	var save = $('submit');
+	var save = ge('submit');
 	save.addEventListener("click", validate);
 
 });
