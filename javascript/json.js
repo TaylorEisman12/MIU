@@ -1,6 +1,6 @@
 // Taylor Eisman
 // MIU 04/12
-// Project 
+// Project 1
 
 var json = {
 	"bill1": {
