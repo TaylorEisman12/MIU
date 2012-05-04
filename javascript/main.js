@@ -5,6 +5,7 @@
 function BPupdate(e){
 	document.getElementById('BPValue').innerHTML = e;	
 }
+
 window.addEventListener("DOMContentLoaded", function(){
 
 	function ge(x){
