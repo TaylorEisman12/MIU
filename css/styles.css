@@ -117,7 +117,7 @@ div.linkTitle{
 }
 
 div.displayLink{
-	background-image:url('file:///Volumes/Macintosh%20HD/Users/tayloreisman/Desktop/MIU/images/links.png');
+	background-image:url('file:///Volumes/Macintosh%20HD/Users/tayloreisman/Desktop/MIU/images/displayalllink.png');
 	background-position: 0 0;
 	background-repeat: no-repeat;
 	width: 304px;
@@ -125,21 +125,33 @@ div.displayLink{
 }
 
 div.displayCellLink{
-	background-image:url('file:///Volumes/Macintosh%20HD/Users/tayloreisman/Desktop/MIU/images/links.png');
-	background-position: 0 -50;
+	background-image:url('file:///Volumes/Macintosh%20HD/Users/tayloreisman/Desktop/MIU/images/celllink.png');
+	background-position: 0 0;
 	background-repeat: no-repeat;
 	width: 304px;
 	height: 50px;
 }
 
 div.displayCarLink{
-	background-position: 0 -150;
+	background-image:url('file:///Volumes/Macintosh%20HD/Users/tayloreisman/Desktop/MIU/images/carlink.png');
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	width: 304px;
+	height: 50px;
 }
 
 div.displayRentLink{
-	background-position: 0 -200;
+	background-image:url('file:///Volumes/Macintosh%20HD/Users/tayloreisman/Desktop/MIU/images/rentlink.png');
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	width: 304px;
+	height: 50px;
 }
 
 div.displayCableLink{
-	background-position: 0 -250;
+	background-image:url('file:///Volumes/Macintosh%20HD/Users/tayloreisman/Desktop/MIU/images/cablelink.png');
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	width: 304px;
+	height: 50px;
 }
