@@ -58,12 +58,6 @@ a.browseLink{
 	padding-top: 0px;
 }
 
-#searchButton{
-	padding-left: 0px;
-	color: silver;
-	background-color: navy; 
-}
-
 #search{
 	padding-left: 105px;
 }
@@ -116,31 +110,36 @@ span {
 	padding-bottom: 0px;
 }
 
-div.displayLink, div.displayCellLink, div.displayCarLink, div.displayRentLink, div.displayCableLink{
+div.linkTitle{
+	color: silver;
+	font-size: x-large;
+	background-color: navy;
+}
+
+div.displayLink{
 	background-image:url('file:///Volumes/Macintosh%20HD/Users/tayloreisman/Desktop/MIU/images/links.png');
 	background-position: 0 0;
 	background-repeat: no-repeat;
 	width: 304px;
-	height: 550px;
-	margin-bottom: 10px;
-}
-
-div.displayLink{
-	background-position: -50 0;
+	height: 50px;
 }
 
 div.displayCellLink{
-	background-position: -100 0;
+	background-image:url('file:///Volumes/Macintosh%20HD/Users/tayloreisman/Desktop/MIU/images/links.png');
+	background-position: 0 -50;
+	background-repeat: no-repeat;
+	width: 304px;
+	height: 50px;
 }
 
 div.displayCarLink{
-	background-position: -150 0;
+	background-position: 0 -150;
 }
 
 div.displayRentLink{
-	background-position: -200 0;
+	background-position: 0 -200;
 }
 
 div.displayCableLink{
-	background-position: -250 0;
+	background-position: 0 -250;
 }
