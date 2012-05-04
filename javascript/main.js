@@ -239,7 +239,7 @@ window.addEventListener("DOMContentLoaded", function(){
 			messageAry.push(compNameError);
 		}
 		
-		var re = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+ge/;
+		var re = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 		if(!(re.exec(getCompEmail.value))){
 			var compEmailError = "Please enter a valid email address.";
 			getCompEmail.style.border = "1px solid red";
