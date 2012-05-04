@@ -177,7 +177,7 @@ window.addEventListener("DOMContentLoaded", function(){
 				radios[i].setAttribute("checked", "checked");
 			}
 		}
-		if(item.pastDue[1] == "yes"){
+		if(item.pastDue[1] == "Yes"){
 			ge('pastDue').setAttribute("checked", "checked");
 		}
 		ge('budgetPercent').value = item.budgetPercent[1];
