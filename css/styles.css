@@ -20,21 +20,21 @@ h1 {
 	margin: 0px;
 }
 
-h2{
+h2 {
 	color: silver;
 	font-size: medium;
 	font-weight: bold;
 	margin: 0px;
 }
 
-#cta{
+#cta {
 	background-image:url('file:///Volumes/Macintosh%20HD/Users/tayloreisman/Desktop/MIU/images/cta.png');
 	background-repeat: no-repeat;
 	width: 304px;
 	height: 200px;
 }
 
-a.ctaLink{
+a.ctaLink {
 	position: fixed;
 	top: 175px;
 	right: 20px;
@@ -43,7 +43,7 @@ a.ctaLink{
 	font-size: xx-large;
 }
 
-a.browseLink{
+a.browseLink {
 	color: silver;
 	font-size: x-large;
 	padding-left: 20px;
@@ -51,14 +51,14 @@ a.browseLink{
 	border: black;
 }
 
-#errors{
+#errors {
 	color: red;
 	font-size: smaller;
 	font-style: italic;
 	padding-top: 0px;
 }
 
-#search{
+#search {
 	padding-left: 105px;
 }
 
@@ -110,13 +110,13 @@ span {
 	padding-bottom: 0px;
 }
 
-div.linkTitle{
+div.linkTitle {
 	color: silver;
 	font-size: x-large;
 	background-color: navy;
 }
 
-div.displayLink{
+div.displayLink {
 	background-image:url('file:///Volumes/Macintosh%20HD/Users/tayloreisman/Desktop/MIU/images/displayalllink.png');
 	background-position: 0 0;
 	background-repeat: no-repeat;
@@ -124,7 +124,7 @@ div.displayLink{
 	height: 50px;
 }
 
-div.displayCellLink{
+div.displayCellLink {
 	background-image:url('file:///Volumes/Macintosh%20HD/Users/tayloreisman/Desktop/MIU/images/celllink.png');
 	background-position: 0 0;
 	background-repeat: no-repeat;
@@ -132,7 +132,7 @@ div.displayCellLink{
 	height: 50px;
 }
 
-div.displayCarLink{
+div.displayCarLink {
 	background-image:url('file:///Volumes/Macintosh%20HD/Users/tayloreisman/Desktop/MIU/images/carlink.png');
 	background-position: 0 0;
 	background-repeat: no-repeat;
@@ -140,7 +140,7 @@ div.displayCarLink{
 	height: 50px;
 }
 
-div.displayRentLink{
+div.displayRentLink {
 	background-image:url('file:///Volumes/Macintosh%20HD/Users/tayloreisman/Desktop/MIU/images/rentlink.png');
 	background-position: 0 0;
 	background-repeat: no-repeat;
@@ -148,7 +148,7 @@ div.displayRentLink{
 	height: 50px;
 }
 
-div.displayCableLink{
+div.displayCableLink {
 	background-image:url('file:///Volumes/Macintosh%20HD/Users/tayloreisman/Desktop/MIU/images/cablelink.png');
 	background-position: 0 0;
 	background-repeat: no-repeat;
