@@ -5,7 +5,7 @@
 var json = {
 	"bill1": {
 		"category": ["Category:", "Cell"],
-		"compName": ["Comapany Name:", "ATT"],
+		"compName": ["Company Name:", "ATT"],
 		"compEmail": ["Company Email:", "salesGuy@att.net"],
 		"compWeb": ["Company Website:", "www.att.com"],
 		"payBy": ["Pay By:", "Internet"],
@@ -16,7 +16,7 @@ var json = {
 	},
 	"bill2": {
 		"category": ["Category:", "Car"],
-		"compName": ["Comapany Name:", "A+ FCU"],
+		"compName": ["Company Name:", "A+ FCU"],
 		"compEmail": ["Company Email:", "loanGal@aplus.com"],
 		"compWeb": ["Company Website:", "www.a+fcu.com"],
 		"payBy": ["Pay By:", "Internet"],
@@ -27,7 +27,7 @@ var json = {
 	},
 	"bill3": {
 		"category": ["Category:", "Rent"],
-		"compName": ["Comapany Name:", "OverLooks"],
+		"compName": ["Company Name:", "OverLooks"],
 		"compEmail": ["Company Email:", "rentDue@apartment.com"],
 		"compWeb": ["Company Website:", "www.overlooks.com"],
 		"payBy": ["Pay By:", "Mail"],
@@ -38,7 +38,7 @@ var json = {
 	}
 	"bill4": {
 		"category": ["Category:", "Cable"],
-		"compName": ["Comapany Name:", "Time Warner"],
+		"compName": ["Company Name:", "Time Warner"],
 		"compEmail": ["Company Email:", "timewarner@time.com"],
 		"compWeb": ["Company Website:", "www.timewarner.com"],
 		"payBy": ["Pay By:", "Internet"],
@@ -49,7 +49,7 @@ var json = {
 	}
 	"bill5": {
 		"category": ["Category:", "Cell"],
-		"compName": ["Comapany Name:", "Tmobile"],
+		"compName": ["Company Name:", "Tmobile"],
 		"compEmail": ["Company Email:", "Tmobile@mobile.com"],
 		"compWeb": ["Company Website:", "www.Tmobile.com"],
 		"payBy": ["Pay By:", "Mail"],
@@ -60,7 +60,7 @@ var json = {
 	}
 	"bill6": {
 		"category": ["Category:", "Cell"],
-		"compName": ["Comapany Name:", "Sprint"],
+		"compName": ["Company Name:", "Sprint"],
 		"compEmail": ["Company Email:", "sprint@mobile.com"],
 		"compWeb": ["Company Website:", "www.Sprint.com"],
 		"payBy": ["Pay By:", "Internet"],
@@ -71,7 +71,7 @@ var json = {
 	}
 	"bill7": {
 		"category": ["Category:", "Rent"],
-		"compName": ["Comapany Name:", "Park Place"],
+		"compName": ["Company Name:", "Park Place"],
 		"compEmail": ["Company Email:", "parkplace@healthcare.com"],
 		"compWeb": ["Company Website:", "www.parkplace.com"],
 		"payBy": ["Pay By:", "Mail"],
@@ -82,7 +82,7 @@ var json = {
 	}
 	"bill8": {
 		"category": ["Category:", "Cable"],
-		"compName": ["Comapany Name:", "Direct Tv"],
+		"compName": ["Company Name:", "Direct Tv"],
 		"compEmail": ["Company Email:", "direct@tv.com"],
 		"compWeb": ["Company Website:", "www.directtv.com"],
 		"payBy": ["Pay By:", "Internet"],
@@ -93,7 +93,7 @@ var json = {
 	}
 	"bill9": {
 		"category": ["Category:", "Rent"],
-		"compName": ["Comapany Name:", "Rent A Center"],
+		"compName": ["Company Name:", "Rent A Center"],
 		"compEmail": ["Company Email:", "rent@center.net"],
 		"compWeb": ["Company Website:", "www.rentcenter.com"],
 		"payBy": ["Pay By:", "Internet"],
@@ -104,7 +104,7 @@ var json = {
 	},
 	"bill10": {
 		"category": ["Category:", "Car"],
-		"compName": ["Comapany Name:", "Bank Of America"],
+		"compName": ["Company Name:", "Bank Of America"],
 		"compEmail": ["Company Email:", "bank@america.com"],
 		"compWeb": ["Company Website:", "www.BoA.com"],
 		"payBy": ["Pay By:", "Internet"],
@@ -115,7 +115,7 @@ var json = {
 	},
 	"bill11": {
 		"category": ["Category:", "Cable"],
-		"compName": ["Comapany Name:", "RoadRunner"],
+		"compName": ["Company Name:", "RoadRunner"],
 		"compEmail": ["Company Email:", "roadrunner@roads.com"],
 		"compWeb": ["Company Website:", "www.roadrunner.com"],
 		"payBy": ["Pay By:", "Mail"],
@@ -126,7 +126,7 @@ var json = {
 	}
 	"bill12": {
 		"category": ["Category:", "Car"],
-		"compName": ["Comapany Name:", "Bank of Banks"],
+		"compName": ["Company Name:", "Bank of Banks"],
 		"compEmail": ["Company Email:", "bank@bank.com"],
 		"compWeb": ["Company Website:", "www.bankobank.com"],
 		"payBy": ["Pay By:", "Internet"],
@@ -137,7 +137,7 @@ var json = {
 	}
 	"bill13": {
 		"category": ["Category:", "Cell"],
-		"compName": ["Comapany Name:", "Verizon"],
+		"compName": ["Company Name:", "Verizon"],
 		"compEmail": ["Company Email:", "verizon@mobile.com"],
 		"compWeb": ["Company Website:", "www.verizon.com"],
 		"payBy": ["Pay By:", "Mail"],
@@ -148,7 +148,7 @@ var json = {
 	}
 	"bill14": {
 		"category": ["Category:", "Cable"],
-		"compName": ["Comapany Name:", "att"],
+		"compName": ["Company Name:", "att"],
 		"compEmail": ["Company Email:", "att@cable.com"],
 		"compWeb": ["Company Website:", "www.att.com"],
 		"payBy": ["Pay By:", "Internet"],
@@ -159,7 +159,7 @@ var json = {
 	}
 	"bill15": {
 		"category": ["Category:", "Rent"],
-		"compName": ["Comapany Name:", "Amazing Lakes"],
+		"compName": ["Company Name:", "Amazing Lakes"],
 		"compEmail": ["Company Email:", "amazinglakes@lakes.com"],
 		"compWeb": ["Company Website:", "www.amazinglakes.com"],
 		"payBy": ["Pay By:", "Mail"],
@@ -170,7 +170,7 @@ var json = {
 	}
 	"bill16": {
 		"category": ["Category:", "Cable"],
-		"compName": ["Comapany Name:", "Direct Tv"],
+		"compName": ["Company Name:", "Direct Tv"],
 		"compEmail": ["Company Email:", "direct@tv.com"],
 		"compWeb": ["Company Website:", "www.directtv.com"],
 		"payBy": ["Pay By:", "Internet"],
@@ -181,7 +181,7 @@ var json = {
 	}
 	"bill17": {
 		"category": ["Category:", "Car"],
-		"compName": ["Comapany Name:", "Kawasaki"],
+		"compName": ["Company Name:", "Kawasaki"],
 		"compEmail": ["Company Email:", "kawasaki@aTv.com"],
 		"compWeb": ["Company Website:", "www.kawasaki.com"],
 		"payBy": ["Pay By:", "Mail"],
@@ -192,7 +192,7 @@ var json = {
 	}
 	"bill18": {
 		"category": ["Category:", "Cable"],
-		"compName": ["Comapany Name:", "Sandy's Cable"],
+		"compName": ["Company Name:", "Sandy's Cable"],
 		"compEmail": ["Company Email:", "sandy@cable.com"],
 		"compWeb": ["Company Website:", "www.sandycable.com"],
 		"payBy": ["Pay By:", "Internet"],
@@ -203,7 +203,7 @@ var json = {
 	}
 	"bill19": {
 		"category": ["Category:", "Rent"],
-		"compName": ["Comapany Name:", "Condo4Life"],
+		"compName": ["Company Name:", "Condo4Life"],
 		"compEmail": ["Company Email:", "condo@life.com"],
 		"compWeb": ["Company Website:", "www.condo4life.com"],
 		"payBy": ["Pay By:", "Mail"],
@@ -214,7 +214,7 @@ var json = {
 	}
 	"bill20": {
 		"category": ["Category:", "Cell"],
-		"compName": ["Comapany Name:", "Cricket"],
+		"compName": ["Company Name:", "Cricket"],
 		"compEmail": ["Company Email:", "cricket@wireless.com"],
 		"compWeb": ["Company Website:", "www.cricket.com"],
 		"payBy": ["Pay By:", "Internet"],
