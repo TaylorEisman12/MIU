@@ -1,5 +1,5 @@
 /* Taylor Eisman */
-/* MIU 04/12 */
+/* MIU 06/12 */
 /* Project 1 */
 
 header {
@@ -28,7 +28,6 @@ h2 {
 }
 
 #cta {
-	background-image:url('file:///Volumes/Macintosh%20HD/Users/tayloreisman/Desktop/MIU/images/cta.png');
 	background-repeat: no-repeat;
 	width: 304px;
 	height: 200px;
@@ -117,7 +116,6 @@ div.linkTitle {
 }
 
 div.displayLink {
-	background-image:url('file:///Volumes/Macintosh%20HD/Users/tayloreisman/Desktop/MIU/images/displayalllink.png');
 	background-position: 0 0;
 	background-repeat: no-repeat;
 	width: 304px;
@@ -125,7 +123,6 @@ div.displayLink {
 }
 
 div.displayCellLink {
-	background-image:url('file:///Volumes/Macintosh%20HD/Users/tayloreisman/Desktop/MIU/images/celllink.png');
 	background-position: 0 0;
 	background-repeat: no-repeat;
 	width: 304px;
@@ -133,7 +130,6 @@ div.displayCellLink {
 }
 
 div.displayCarLink {
-	background-image:url('file:///Volumes/Macintosh%20HD/Users/tayloreisman/Desktop/MIU/images/carlink.png');
 	background-position: 0 0;
 	background-repeat: no-repeat;
 	width: 304px;
@@ -141,7 +137,6 @@ div.displayCarLink {
 }
 
 div.displayRentLink {
-	background-image:url('file:///Volumes/Macintosh%20HD/Users/tayloreisman/Desktop/MIU/images/rentlink.png');
 	background-position: 0 0;
 	background-repeat: no-repeat;
 	width: 304px;
@@ -149,7 +144,6 @@ div.displayRentLink {
 }
 
 div.displayCableLink {
-	background-image:url('file:///Volumes/Macintosh%20HD/Users/tayloreisman/Desktop/MIU/images/cablelink.png');
 	background-position: 0 0;
 	background-repeat: no-repeat;
 	width: 304px;
