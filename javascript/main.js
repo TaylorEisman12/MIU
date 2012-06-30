@@ -1,5 +1,5 @@
 // Taylor Eisman
-// MIU 04/12
+// MIU 06/12
 // Project 1
 
 function BPupdate(e){
