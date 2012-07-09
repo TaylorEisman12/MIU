@@ -1,6 +1,6 @@
 // Taylor Eisman
 // MIU 06/12
-// Project 1
+// Project 2
 
 function BPupdate(e){
 	document.getElementById('BPValue').innerHTML = e;	
